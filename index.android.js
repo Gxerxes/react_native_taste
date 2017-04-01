@@ -55,6 +55,7 @@ AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject);*/
 import React, { Component } from 'react';
 import { AppRegistry, Text } from 'react-native';
 
-import helloworld from './helloworld.js';
+import helloworld from './1helloworld.js';
+import props from './2props.js'
 
-AppRegistry.registerComponent('AwesomeProject', () => helloworld);
+AppRegistry.registerComponent('AwesomeProject', () => props);
