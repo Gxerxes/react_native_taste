@@ -57,5 +57,6 @@ import { AppRegistry, Text } from 'react-native';
 
 import helloworld from './1helloworld.js';
 import props from './2props.js'
+import state from './3state.js';
 
-AppRegistry.registerComponent('AwesomeProject', () => props);
+AppRegistry.registerComponent('AwesomeProject', () => state);
